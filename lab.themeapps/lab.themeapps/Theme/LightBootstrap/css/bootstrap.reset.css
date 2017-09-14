@@ -549,7 +549,7 @@ body > .navbar-collapse {
 
     .main-panel > .content {
         padding: 15px 0px;
-        min-height: calc(100% - 123px);
+        min-height: calc(100% - 200px);
     }
 
     .main-panel > .footer {
@@ -3852,83 +3852,62 @@ a.dropdown-toggle[aria-expanded="true"] .caret {
 }
 
 .container-wrapper-bg-img {
-    position:relative;
-    background-image: url(/Theme/LightBootstrap/img/container1.jpg);
-    min-height: 350px;
+  padding:10px;
+  width: 100%;
+  height: 350px;
+  background-size: cover;
 }
 
-.container-wrapper-content {
-    display: block;
-    padding:10px;
-    position:absolute;
-    opacity: .77;
-    top: 76px;
-    min-height: 350px;
-    width: calc(100% - 30px)
+.container-wrapper-bg-img.blue {
+    background-image: 
+        linear-gradient(
+          rgba(40, 70, 240, 0.80),
+          rgba(40, 70, 240, 0.80)
+        ),
+        url(/Theme/LightBootstrap/img/container1.jpg);
 }
 
-    .container-wrapper-content[data-color="blue"] {
-        background: #1F77D0;
-        background: -moz-linear-gradient(top, #1F77D0 0%, #533ce1 100%);
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1F77D0), color-stop(100%, #533ce1));
-        background: -webkit-linear-gradient(top, #1F77D0 0%, #533ce1 100%);
-        background: -o-linear-gradient(top, #1F77D0 0%, #533ce1 100%);
-        background: -ms-linear-gradient(top, #1F77D0 0%, #533ce1 100%);
-        background: linear-gradient(to bottom, #1F77D0 0%, #533ce1 100%);
-        background-size: 150% 150%;
-    }
+.container-wrapper-bg-img.azure {
+  background-image: 
+    linear-gradient(
+      rgba(40, 200, 240, 0.80),
+      rgba(40, 200, 240, 0.80)
+    ),
+    url(/Theme/LightBootstrap/img/container1.jpg);
+}
 
-    .container-wrapper-content[data-color="azure"] {
-        background: #1DC7EA;
-        background: -moz-linear-gradient(top, #1DC7EA 0%, #4091ff 100%);
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1DC7EA), color-stop(100%, #4091ff));
-        background: -webkit-linear-gradient(top, #1DC7EA 0%, #4091ff 100%);
-        background: -o-linear-gradient(top, #1DC7EA 0%, #4091ff 100%);
-        background: -ms-linear-gradient(top, #1DC7EA 0%, #4091ff 100%);
-        background: linear-gradient(to bottom, #1DC7EA 0%, #4091ff 100%);
-        background-size: 150% 150%;
-    }
+.container-wrapper-bg-img.green {
+  background-image: 
+    linear-gradient(
+      rgba(40, 240, 100, 0.80),
+      rgba(40, 240, 100, 0.80)
+    ),
+    url(/Theme/LightBootstrap/img/container1.jpg);
+}
 
-    .container-wrapper-content[data-color="green"]:before {
-        background: #87CB16;
-        background: -moz-linear-gradient(top, #87CB16 0%, #6dc030 100%);
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #87CB16), color-stop(100%, #6dc030));
-        background: -webkit-linear-gradient(top, #87CB16 0%, #6dc030 100%);
-        background: -o-linear-gradient(top, #87CB16 0%, #6dc030 100%);
-        background: -ms-linear-gradient(top, #87CB16 0%, #6dc030 100%);
-        background: linear-gradient(to bottom, #87CB16 0%, #6dc030 100%);
-        background-size: 150% 150%;
-    }
+.container-wrapper-bg-img.orange {
+  background-image: 
+    linear-gradient(
+      rgba(240, 140, 40, 0.80),
+      rgba(40, 140, 40, 0.80)
+    ),
+    url(/Theme/LightBootstrap/img/container1.jpg);
+}
 
-    .container-wrapper-content[data-color="orange"]:before {
-        background: #FFA534;
-        background: -moz-linear-gradient(top, #FFA534 0%, #ff5221 100%);
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFA534), color-stop(100%, #ff5221));
-        background: -webkit-linear-gradient(top, #FFA534 0%, #ff5221 100%);
-        background: -o-linear-gradient(top, #FFA534 0%, #ff5221 100%);
-        background: -ms-linear-gradient(top, #FFA534 0%, #ff5221 100%);
-        background: linear-gradient(to bottom, #FFA534 0%, #ff5221 100%);
-        background-size: 150% 150%;
-    }
+.container-wrapper-bg-img.red {
+  background-image: 
+    linear-gradient(
+      rgba(240, 40, 40, 0.80),
+      rgba(40, 40, 240, 0.80)
+    ),
+    url(/Theme/LightBootstrap/img/container1.jpg);
+}
 
-    .container-wrapper-content[data-color="red"]:before {
-        background: #FB404B;
-        background: -moz-linear-gradient(top, #FB404B 0%, #bb0502 100%);
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FB404B), color-stop(100%, #bb0502));
-        background: -webkit-linear-gradient(top, #FB404B 0%, #bb0502 100%);
-        background: -o-linear-gradient(top, #FB404B 0%, #bb0502 100%);
-        background: -ms-linear-gradient(top, #FB404B 0%, #bb0502 100%);
-        background: linear-gradient(to bottom, #FB404B 0%, #bb0502 100%);
-        background-size: 150% 150%;
-    }
-
-    .container-wrapper-content[data-color="purple"]:before {
-        background: #9368E9;
-        background: -moz-linear-gradient(top, #9368E9 0%, #943bea 100%);
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9368E9), color-stop(100%, #943bea));
-        background: -webkit-linear-gradient(top, #9368E9 0%, #943bea 100%);
-        background: -o-linear-gradient(top, #9368E9 0%, #943bea 100%);
-        background: -ms-linear-gradient(top, #9368E9 0%, #943bea 100%);
-        background: linear-gradient(to bottom, #9368E9 0%, #943bea 100%);
-        background-size: 150% 150%;
-    }
+.container-wrapper-bg-img.purple {
+  background-image: 
+    linear-gradient(
+      rgba(150, 40, 240, 0.80),
+      rgba(150, 40, 240, 0.80)
+    ),
+    url(/Theme/LightBootstrap/img/container1.jpg);
+}
