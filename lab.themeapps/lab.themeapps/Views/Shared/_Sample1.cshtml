@@ -1,0 +1,210 @@
+﻿
+<div id="divPatientReport" class="row" style="display: none;">
+    <div id="lnkPatientReportedOutcomes" class="col-lg-4 col-xs-6">
+        <a href="javascript:;">
+            <div class="small-box small-box-aqua">
+                <div class="inner">
+                    <p>Patient Reported Outcomes</p>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-users"></i>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div id="lnkHospitalReportedOutcomes" class="col-lg-4 col-xs-6">
+        <a href="javascript:;">
+            <div class="small-box small-box-gray">
+                <div class="inner">
+                    <p>Hospital Reported Outcomes</p>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-h-square"></i>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div id="lnkIndividualPatientOutcomes" class="col-lg-4 col-xs-6">
+        <a href="javascript:;">
+            <div class="small-box small-box-blue">
+                <div class="inner">
+                    <p>Individual Patient Outcomes</p>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-user"></i>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+<div id="divPatientReportSurvey" class="row" style="display: none;">
+    <div class="col-md-12" style="margin-bottom: 10px;">
+        <button class="btnPatientReportBack btn btn-sm btn-primary btn-fill"><i class="fa fa-angle-left"></i>Back</button>
+    </div>
+    <div>
+        <div class="col-md-1">
+            <button type="button" class="btn btn-info btn-fill btnPatientReportSurvey">IPSS</button>
+        </div>
+        <div class="col-md-1">
+            <button type="button" class="btn btn-info btn-fill btnPatientReportSurvey">BSS</button>
+        </div>
+        <div class="col-md-1">
+            <button type="button" class="btn btn-info btn-fill btnPatientReportSurvey">IIEF</button>
+        </div>
+    </div>
+</div>
+<div id="divPatientReportSurveyWiseChart" class="row" style="display: none;">
+    <div id="divBtnPatientReportSurveyBack" class="col-md-12" style="margin-bottom: 10px;">
+        <button class="btnPatientReportSurveyBack btn btn-sm btn-primary btn-fill"><i class="fa fa-angle-left"></i>Back</button>
+    </div>
+    <div id="divBtnPatientReportSurveyWiseTableBack" class="col-md-12" style="margin-bottom: 10px;">
+        <button class="btnPatientReportSurveyWiseTableBack btn btn-sm btn-primary btn-fill"><i class="fa fa-angle-left"></i>Back</button>
+    </div>
+    <div class="col-md-12">
+        <div class="pull-left">
+        </div>
+        <div class="pull-right">
+            <button class="btn btn-sm btn-info btn-fill" id="btnPrintOut"><i class="fa fa-print"></i>Print</button>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div id="divChartContainer">
+            <canvas style="background-color:#fff;padding-top:50px" id="canvasChart"></canvas>
+        </div>
+        <div style="text-align: center; padding: 10px 5px 10px 5px;">
+            <label>
+                <input type="radio" value="bar" name="chartType" /> Bar Chart
+            </label>
+            <label>
+                <input type="radio" checked="checked" value="line" name="chartType" /> Line Chart
+            </label>
+        </div>
+    </div>
+</div>
+<div id="divPatientReportSurveyWiseTable" class="row" style="display: none;">
+    <div class="col-md-12" style="margin-bottom: 10px;">
+        <button class="btnPatientReportSurveyBack btn btn-sm btn-primary btn-fill"><i class="fa fa-angle-left"></i>Back</button>
+    </div>
+    <div class="col-md-12">
+        <table class="table table-hover general-table">
+            <thead>
+                <tr>
+                    <th>Patient Name</th>
+                    <th>Email Address</th>
+                    <th>Phone</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="text" class="form-control" placeholder="Search" /></td>
+                    <td><input type="text" class="form-control" placeholder="Search" /></td>
+                    <td><input type="text" class="form-control" placeholder="Search" /></td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>Jamil Hossain</td>
+                    <td>patient01@gmail.com</td>
+                    <td>456-321-5425</td>
+                    <td><button type="button" class="btn btn-sm btn-info btn-fill btnPatientReport">Select</button></td>
+                </tr>
+                <tr>
+                    <td>Jamil Hossain</td>
+                    <td>patient01@gmail.com</td>
+                    <td>456-321-5425</td>
+                    <td><button type="button" class="btn btn-sm btn-info btn-fill btnPatientReport">Select</button></td>
+                </tr>
+                <tr>
+                    <td>Jamil Hossain</td>
+                    <td>patient01@gmail.com</td>
+                    <td>456-321-5425</td>
+                    <td><button type="button" class="btn btn-sm btn-info btn-fill btnPatientReport">Select</button></td>
+                </tr>
+                <tr>
+                    <td>Jamil Hossain</td>
+                    <td>patient01@gmail.com</td>
+                    <td>456-321-5425</td>
+                    <td><button type="button" class="btn btn-sm btn-info btn-fill btnPatientReport">Select</button></td>
+                </tr>
+                <tr>
+                    <td>Jamil Hossain</td>
+                    <td>patient01@gmail.com</td>
+                    <td>456-321-5425</td>
+                    <td><button type="button" class="btn btn-sm btn-info btn-fill btnPatientReport">Select</button></td>
+                </tr>
+                <tr>
+                    <td>Jamil Hossain</td>
+                    <td>patient01@gmail.com</td>
+                    <td>456-321-5425</td>
+                    <td><button type="button" class="btn btn-sm btn-info btn-fill btnPatientReport">Select</button></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    	$(document).ready(function(){
+
+        	function hideAll() {
+        	    $('#divProfessionalInfo').hide();
+        	    $('#divPatientReport').hide();
+        	    $('#divPatientReportSurvey').hide();
+        	    $('#divPatientReportSurveyWiseChart').hide();
+        	    $('#divPatientReportSurveyWiseTable').hide();
+
+        	    $('#divBtnPatientReportSurveyBack').hide();
+        	    $('#divBtnPatientReportSurveyWiseTableBack').hide();
+        	};
+
+        	$('body').on('click', '.lnkSubMenu', function (e) {
+        	    hideAll();
+        	    $('#divPatientReport').show();
+        	});
+
+        	$('body').on('click', '#lnkPatientReportedOutcomes', function (e) {
+        	    hideAll();
+        	    $('#divPatientReportSurvey').show();
+        	});
+
+        	$('body').on('click', '#lnkHospitalReportedOutcomes', function (e) {
+        	    hideAll();
+        	    $('#divPatientReportSurvey').show();
+        	});
+
+        	$('body').on('click', '#lnkIndividualPatientOutcomes', function (e) {
+        	    hideAll();
+        	    $('#divPatientReportSurveyWiseTable').show();
+        	});
+
+        	$('body').on('click', '.btnPatientReportSurvey', function (e) {
+        	    hideAll();
+        	    $('#divPatientReportSurveyWiseChart').show();
+        	    $('#divBtnPatientReportSurveyBack').show();
+        	});
+
+        	$('body').on('click', '.btnPatientReportSurveyBack', function (e) {
+        	    hideAll();
+        	    $('#divPatientReportSurvey').show();
+        	});
+
+        	$('body').on('click', '.btnPatientReportBack', function (e) {
+        	    hideAll();
+        	    $('#divPatientReport').show();
+        	});
+
+        	$('body').on('click', '.btnPatientReportSurveyWiseTableBack', function (e) {
+        	    hideAll();
+        	    $('#divPatientReportSurveyWiseTable').show();
+        	});
+
+        	$('body').on('click', '.btnPatientReport', function (e) {
+        	    hideAll();
+        	    $('#divPatientReportSurveyWiseChart').show();
+        	    $('#divBtnPatientReportSurveyWiseTableBack').show();
+        	});
+
+    	});
+</script>
