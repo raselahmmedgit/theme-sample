@@ -47,7 +47,7 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="sidebar" data-color="azure" data-image="/Theme/LightBootstrap/img/sidebar-1.jpg">
+        <div class="sidebar" data-color="azure" data-image="~/Content/img/sidebar.jpg">
             <!--
 
                 Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
@@ -60,7 +60,10 @@
                         <img width="215px" src="~/Content/img/logo.png" />
                     </a>
                 </div>
-                <ul class="nav">
+                <div class="search" style="padding:5px;">
+                    <input id="txtNavSearch" type="text" placeholder="Search...">
+                </div>
+                <ul id="side-nav" class="nav">
                     <li class="active">
                         <a href="#">
                             <i class="fa fa-dashboard" aria-hidden="true"></i> <p>Dashboard</p>
@@ -80,7 +83,7 @@
                     <li data-toggle="collapse" data-target="#Robotic" class="collapsed">
                         <a href="javascript:;"><i class="pe-7s-science" aria-hidden="true"></i><p>Prostate Cancer<b class="caret"></b></p></a>
                         <div class="collapse" id="Robotic" aria-expanded="true">
-                            <ul class="nav nav-sub">
+                            <ul class="nav nav-sub side-nav-sub">
                                 <li><a class="lnkSubMenu" href="javascript:;">Robotic Surgery</a></li>
                                 <li><a href="javascript:;">Radiation</a></li>
                                 <li><a href="javascript:;">Cryablation</a></li>

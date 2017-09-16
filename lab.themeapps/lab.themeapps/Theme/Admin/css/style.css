@@ -1,0 +1,178 @@
+﻿.container-wrapper-bg-img .professional-info {
+    color: #000;
+    margin-top:80px;
+}
+
+.professional-info {
+    
+}
+
+.profile-view {
+}
+
+    .profile-view img {
+        display: inline-block;
+        /*border: 10px solid #f1f2f7;*/
+        border-radius: 50% !important;
+        -webkit-border-radius: 50% !important;
+        vertical-align: middle;
+        max-width: 150px;
+    }
+
+    .profile-view h2 {
+        font-weight: 600;
+        margin: 0px;
+        font-size: 26px;
+    }
+
+    .profile-view h4 {
+        font-size: 20px;
+        margin: 0px;
+    }
+
+    .profile-view p {
+    }
+
+.profile-data {
+    margin-top: 30px;
+}
+
+.profile-record {
+    margin-top: 50px;
+}
+
+    .profile-record i {
+        font-size: 43px;
+        color: #cacaca;
+    }
+
+    .profile-record span span {
+        display: block;
+    }
+
+    .profile-record .icon {
+        width: 60px;
+    }
+
+    .profile-record .profile-record-count {
+        font-weight: 800;
+        font-size: 18px;
+    }
+
+    .profile-record h4 {
+    }
+
+
+.container-wrapper-content .profile-record i {
+        font-size: 43px;
+        color: #000;
+    }
+
+/*
+ * Component: Small Box
+ * --------------------
+ */
+    .small-box {
+        position: relative;
+        display: block;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+        height: 115px;
+    }
+
+        .small-box > .inner {
+            padding: 0px;
+            float: left;
+            width:70%;
+            height:100%;
+        }
+
+        .small-box p {
+            font-size: 24px;
+            margin: 20px 0 0 0;
+            padding: 0;
+            color: #F6F5F5;
+            text-align: center;
+        }
+
+            .small-box p > small {
+                display: block;
+                color: #f9f9f9;
+                font-size: 13px;
+                margin-top: 5px;
+            }
+
+        .small-box p {
+            z-index: 5px;
+        }
+
+        .small-box .icon {
+            -webkit-transition: all 0.3s linear;
+            -o-transition: all 0.3s linear;
+            transition: all 0.3s linear;
+            z-index: 0;
+            font-size: 90px;
+            color: rgba(0, 0, 0, 0.15);
+            float: right;
+            width:30%;
+            height:100%;
+        }
+
+        .small-box:hover {
+            text-decoration: none;
+            color: #f9f9f9;
+        }
+
+            .small-box:hover .icon {
+                font-size: 95px;
+            }
+
+    @media (max-width: 767px) {
+        .small-box {
+            text-align: center;
+        }
+
+            .small-box .icon {
+                display: none;
+            }
+
+            .small-box p {
+                font-size: 12px;
+            }
+    }
+
+
+    .small-box-aqua {
+        color: #000;
+        background-color: #00c0ef !important;
+    }
+
+    .small-box-blue {
+        color: #000;
+        background-color: #3c8dbc !important;
+    }
+
+    .small-box-gray {
+        color: #000;
+        background-color: #39cccc !important;
+    }
+
+    .small-box-darkblue {
+        color: #000;
+        background-color: #3131e2 !important;
+    }
+
+    .small-box-brown {
+        color: #000;
+        background-color: #e03f3f !important;
+    }
+
+    .small-box-olive {
+        color: #000;
+        background-color: #9d9d03 !important;
+    }
+
+/*
+ * Component: Small Box
+ * --------------
+ */
+

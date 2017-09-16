@@ -549,7 +549,7 @@ body > .navbar-collapse {
 
     .main-panel > .content {
         padding: 15px 0px;
-        min-height: calc(100% - 200px);
+        min-height: calc(100% - 123px);
     }
 
     .main-panel > .footer {
@@ -3910,4 +3910,25 @@ a.dropdown-toggle[aria-expanded="true"] .caret {
       rgba(150, 40, 240, 0.80)
     ),
     url(/Theme/LightBootstrap/img/container1.jpg);
+}
+
+
+/*
+ * nav search
+ * --------------
+ */
+
+.sidebar-wrapper > .search {
+    padding:5px;
+}
+
+.sidebar-wrapper > .search > input {
+    background-color: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    color: #565656;
+    padding: 8px 12px;
+    height: 30px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    width: 100%;
 }

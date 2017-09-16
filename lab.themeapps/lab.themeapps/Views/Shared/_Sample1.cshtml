@@ -159,6 +159,42 @@
         	    $('#divBtnPatientReportSurveyWiseTableBack').hide();
         	};
 
+        	function navSearch() {
+        	    // Declare variables
+        	    
+        	    var search = document.getElementById('txtNavSearch');
+        	    var searchValue = search.value.toUpperCase();
+        	    var sideNav = document.getElementById("side-nav");
+        	    var sideNavItem = sideNav.getElementsByTagName('li');
+
+        	    // Loop through all list items, and hide those who don't match the search query
+        	    for (var i = 0; i < sideNavItem.length; i++) {
+        	        var a = sideNavItem[i].getElementsByTagName("a")[0];
+        	        if (a.innerHTML.toUpperCase().indexOf(searchValue) > -1) {
+        	            sideNavItem[i].style.display = "";
+        	        } else {
+        	            sideNavItem[i].style.display = "none";
+        	        }
+        	    }
+
+        	    //var sideNavSub = document.getElementsByClassName("side-nav-sub");
+
+        	    //for (var j = 0; j < sideNavSub.length; j++) {
+        	    //    var sideNavSubItem = sideNavSub[j].getElementsByTagName("li")[0];
+
+        	    //    // Loop through all list items, and hide those who don't match the search query
+        	    //    for (var i = 0; i < sideNavSubItem.length; i++) {
+        	    //        var a = sideNavSubItem[i].getElementsByTagName("a")[0];
+        	    //        if (a.innerHTML.toUpperCase().indexOf(searchValue) > -1) {
+        	    //            sideNavSubItem[i].style.display = "";
+        	    //        } else {
+        	    //            sideNavSubItem[i].style.display = "none";
+        	    //        }
+        	    //    }
+        	    //}
+        	    
+        	}
+
         	$('body').on('click', '.lnkSubMenu', function (e) {
         	    hideAll();
         	    $('#divPatientReport').show();
@@ -204,6 +240,10 @@
         	    hideAll();
         	    $('#divPatientReportSurveyWiseChart').show();
         	    $('#divBtnPatientReportSurveyWiseTableBack').show();
+        	});
+
+        	$('body').on('keyup', '#txtNavSearch', function (e) {
+        	    navSearch();
         	});
 
     	});

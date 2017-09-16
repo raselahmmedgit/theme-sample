@@ -1,6 +1,206 @@
 ﻿@{
     Layout = null;
-    ViewBag.Title = "Sample 4";
+    ViewBag.Title = "placovu";
 }
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="~/favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>placovu</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Bootstrap core CSS     -->
+    <link href="~/Theme/Admin/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!--     Fonts and icons     -->
+    <link href="~/Theme/Admin/css/font-awesome.min.css" rel="stylesheet" type='text/css' />
+
+    <!--  App core CSS    -->
+    <link href="~/Theme/Admin/css/bootstrap.reset.css" rel="stylesheet" />
+
+    <!--  CSS for include custom css  -->
+    <link href="~/Theme/Admin/css/style.css" rel="stylesheet" type='text/css' />
+
+    @Scripts.Render("~/bundles/jquery")
+
+    <!--   Core JS Files   -->
+    <script src="~/Theme/Admin/js/bootstrap.min.js" type="text/javascript"></script>
+
+    <!-- App javascript and methods -->
+    @*<script src="~/Theme/Admin/js/app.js"></script>*@
+
+    <!-- ChartJS -->
+    <script src="~/Theme/Admin/chartjs/dist/Chart.bundle.min.js"></script>
+    <script src="~/Theme/Admin/js/app-chart.js"></script>
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar azure">
+            <div class="sidebar-wrapper">
+                <div class="logo">
+                    <a href="#" class="simple-text">
+                        <img width="215px" src="~/Content/img/logo.png" />
+                    </a>
+                </div>
+                <div class="search" style="padding:5px;">
+                    <input id="txtNavSearch" type="text" placeholder="Search...">
+                </div>
+                <div class="navbar">
+                    <ul id="side-nav" class="nav">
+                        <li class="active">
+                            <a href="#">
+                                <i class="fa fa-dashboard" aria-hidden="true"></i> <p>Dashboard</p>
+                            </a>
+                        </li>
+
+                        <li data-toggle="collapse" data-target="#Biopsy" class="collapsed">
+                            <a href="javascript:;"><i class="fa fa-cog" aria-hidden="false"></i> <p>Prostate Biopsy<b class="caret"></b></p></a>
+                            <div class="collapse" id="Biopsy" aria-expanded="true">
+                                <ul class="nav nav-sub side-nav-sub">
+                                    <li><a class="lnkSubMenu" href="javascript:;"><p>Robotic Surgery</p></a></li>
+                                    <li><a href="javascript:;"><p>Radiation</p></a></li>
+                                    <li><a href="javascript:;"><p>Cryablation</p></a></li>
+                                    <li><a href="javascript:;"><p>ADT</p></a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="javascript:;">
+                                <i class="fa fa-cog" aria-hidden="true"></i><p>BPH</p>
+                            </a>
+                        </li>
+
+                        <li data-toggle="collapse" data-target="#Robotic" class="collapsed">
+                            <a href="javascript:;"><i class="fa fa-cog" aria-hidden="true"></i><p>Prostate Cancer<b class="caret"></b></p></a>
+                            <div class="collapse" id="Robotic" aria-expanded="true">
+                                <ul class="nav nav-sub side-nav-sub">
+                                    <li><a class="lnkSubMenu" href="javascript:;"><p>Robotic Surgery</p></a></li>
+                                    <li><a href="javascript:;"><p>Radiation</p></a></li>
+                                    <li><a href="javascript:;"><p>Cryablation</p></a></li>
+                                    <li><a href="javascript:;"><p>ADT</p></a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="javascript:;">
+                                <i class="fa fa-cog" aria-hidden="true"></i><p>Urninary Incontinence</p>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="javascript:;">
+                                <i class="fa fa-cog" aria-hidden="true"></i><p>Pathology</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main-panel">
+            <nav class="navbar navbar-default navbar-fixed">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-globe"></i>
+                                    <b class="caret"></b>
+                                    <span class="notification">5</span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Notification 1</a></li>
+                                    <li><a href="#">Notification 2</a></li>
+                                    <li><a href="#">Notification 3</a></li>
+                                    <li><a href="#">Notification 4</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    Dr. Robert A Gaertner
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Change Password</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Log out</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Register</a>
+                            </li>
+                            <li>
+                                <a href="#">Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="container-wrapper-bg-img azure">
+                        <div id="divProfessionalInfo" class="row">
+                            <div class="professional-info">
+                                <div class="profile-view">
+                                    <div class="col-md-2">
+                                        <img alt="profile-pic" class="profile-picture" src="~/Content/img/doctor.jpg" />
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="profile-data">
+                                            <h4>Welcome</h4>
+                                            <h2>Dr. Robert A Gaertner</h2>
+                                            <p>Minnesota Urology, USA</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="profile-record">
+                                            <div class="pull-left icon"><i class="fa fa-users" aria-hidden="true"></i></div>
+                                            <div class="pull-left">
+                                                <span>
+                                                    <span class="profile-record-count">
+                                                        1500
+                                                    </span> <span>Patients</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        @Html.Partial("_Sample1")
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer">
+                <div class="container-fluid">
+                    <p class="copyright pull-right">
+                        &copy; @DateTime.Now.Year - <a href="#">Placovu</a>, Inc. All rights reserved.
+                    </p>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script type="text/javascript">
+    	$(document).ready(function(){
+
+    	});
+    </script>
+</body>
+</html>
 
 

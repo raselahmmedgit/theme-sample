@@ -178,7 +178,15 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\img\1.jpg" />
+    <Content Include="Content\img\2.jpg" />
+    <Content Include="Content\img\3.jpg" />
+    <Content Include="Content\img\container.jpg" />
+    <Content Include="Content\img\doctor.jpg" />
+    <Content Include="Content\img\doctors.jpg" />
+    <Content Include="Content\img\logo.png" />
     <Content Include="Content\img\placovu-logo.png" />
+    <Content Include="Content\img\sidebar.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -197,6 +205,17 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Theme\Admin\chartjs\dist\Chart.bundle.js" />
+    <Content Include="Theme\Admin\chartjs\dist\Chart.bundle.min.js" />
+    <Content Include="Theme\Admin\chartjs\dist\Chart.js" />
+    <Content Include="Theme\Admin\chartjs\dist\Chart.min.js" />
+    <Content Include="Theme\Admin\css\bootstrap.min.css" />
+    <Content Include="Theme\Admin\css\bootstrap.reset.css" />
+    <Content Include="Theme\Admin\css\font-awesome.min.css" />
+    <Content Include="Theme\Admin\css\style.css" />
+    <Content Include="Theme\Admin\js\app-chart.js" />
+    <Content Include="Theme\Admin\js\app.js" />
+    <Content Include="Theme\Admin\js\bootstrap.min.js" />
     <Content Include="Theme\LightBootstrap\chartjs\dist\Chart.bundle.js" />
     <Content Include="Theme\LightBootstrap\chartjs\dist\Chart.bundle.min.js" />
     <Content Include="Theme\LightBootstrap\chartjs\dist\Chart.js" />
@@ -239,8 +258,12 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Theme\Admin\fonts\" />
     <Folder Include="Theme\LightBootstrap\css\" />
     <Folder Include="Theme\LightBootstrap\fonts\" />
+    <Folder Include="Theme\placovu\css\" />
+    <Folder Include="Theme\placovu\fonts\" />
+    <Folder Include="Theme\placovu\js\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
