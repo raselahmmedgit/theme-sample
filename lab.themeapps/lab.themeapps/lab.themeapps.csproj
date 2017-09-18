@@ -216,6 +216,14 @@
     <Content Include="Theme\Admin\js\app-chart.js" />
     <Content Include="Theme\Admin\js\app.js" />
     <Content Include="Theme\Admin\js\bootstrap.min.js" />
+    <Content Include="Theme\app\css\bootstrap-reset.css" />
+    <Content Include="Theme\app\css\bootstrap.min.css" />
+    <Content Include="Theme\app\css\font-awesome.min.css" />
+    <Content Include="Theme\app\css\style.css" />
+    <Content Include="Theme\app\fonts\fontawesome-webfont.svg" />
+    <Content Include="Theme\app\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Theme\app\fonts\opensans\OpenSans.svg" />
+    <Content Include="Theme\app\js\bootstrap.min.js" />
     <Content Include="Theme\LightBootstrap\chartjs\dist\Chart.bundle.js" />
     <Content Include="Theme\LightBootstrap\chartjs\dist\Chart.bundle.min.js" />
     <Content Include="Theme\LightBootstrap\chartjs\dist\Chart.js" />
@@ -254,6 +262,18 @@
     <Content Include="Views\Home\Sample8.cshtml" />
     <Content Include="Views\Shared\_Sample2.cshtml" />
     <Content Include="Views\Shared\_Sample1.cshtml" />
+    <Content Include="Theme\app\fonts\fontawesome-webfont.eot" />
+    <Content Include="Theme\app\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Theme\app\fonts\fontawesome-webfont.woff" />
+    <Content Include="Theme\app\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Theme\app\fonts\FontAwesome.otf" />
+    <Content Include="Theme\app\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Theme\app\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Theme\app\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Theme\app\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Theme\app\fonts\opensans\OpenSans.eot" />
+    <Content Include="Theme\app\fonts\opensans\OpenSans.ttf" />
+    <Content Include="Theme\app\fonts\opensans\OpenSans.woff" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -16,7 +16,7 @@
 
 /* Move down content because we have a fixed navbar that is 86px tall */
 body {
-    padding-top: 60px;
+    padding-top: 86px;
     background: #f1f2f7;
     font-family: "OpenSans";
     min-height: 100%;
@@ -28,7 +28,7 @@ a, a:hover, a:focus {
 }
 
 .sidebar-container {
-    position: fixed;
+    position: absolute;
     width: 250px;
     height: 100%;
     font-weight: 200;
@@ -37,34 +37,34 @@ a, a:hover, a:focus {
 }
 
     .sidebar-container.blue {
-        background-image: linear-gradient( rgba(40, 70, 240, 0.80), rgba(40, 70, 240, 0.80) ), url(../img/sidebar.jpg);
+        background-image: linear-gradient( rgba(40, 70, 240, 0.80), rgba(40, 70, 240, 0.80) ), url(/Content/img/sidebar.jpg);
     }
 
     .sidebar-container.azure {
-        background-image: linear-gradient( rgba(40, 200, 240, 0.80), rgba(40, 200, 240, 0.80) ), url(../img/sidebar.jpg);
+        background-image: linear-gradient( rgba(40, 200, 240, 0.80), rgba(40, 200, 240, 0.80) ), url(/Content/img/sidebar.jpg);
     }
 
     .sidebar-container.green {
-        background-image: linear-gradient( rgba(40, 240, 100, 0.80), rgba(40, 240, 100, 0.80) ), url(../img/sidebar.jpg);
+        background-image: linear-gradient( rgba(40, 240, 100, 0.80), rgba(40, 240, 100, 0.80) ), url(/Content/img/sidebar.jpg);
     }
 
     .sidebar-container.orange {
-        background-image: linear-gradient( rgba(240, 140, 40, 0.80), rgba(40, 140, 40, 0.80) ), url(../img/sidebar.jpg);
+        background-image: linear-gradient( rgba(240, 140, 40, 0.80), rgba(40, 140, 40, 0.80) ), url(/Content/img/sidebar.jpg);
     }
 
     .sidebar-container.red {
-        background-image: linear-gradient( rgba(240, 40, 40, 0.80), rgba(40, 40, 240, 0.80) ), url(../img/sidebar.jpg);
+        background-image: linear-gradient( rgba(240, 40, 40, 0.80), rgba(40, 40, 240, 0.80) ), url(/Content/img/sidebar.jpg);
     }
 
     .sidebar-container.purple {
-        background-image: linear-gradient( rgba(150, 40, 240, 0.80), rgba(150, 40, 240, 0.80) ), url(../img/sidebar.jpg);
+        background-image: linear-gradient( rgba(150, 40, 240, 0.80), rgba(150, 40, 240, 0.80) ), url(/Content/img/sidebar.jpg);
     }
 
 .main-container {
+    float: left;
     width: 100%;
-    padding-left: 270px;
-    padding-right: 20px;
-    padding-top: 20px;
+    padding-left: 290px;
+    padding-right: 30px;
     top: 60px;
 }
 
@@ -90,7 +90,7 @@ a, a:hover, a:focus {
 
     .navbar-brand > img {
         height: 50px;
-        width: 240px;
+        width: 235px;
     }
 
 .navbar-inverse {
@@ -265,28 +265,28 @@ a, a:hover, a:focus {
 
 /*Custom Css*/
 
-.header .top-nav {
+header .top-nav {
     margin-top: 15px;
 }
 
-    .header .top-nav img {
+    header .top-nav img {
         border-radius: 50%;
         -webkit-border-radius: 50%;
         width: 33px;
     }
 
-    .header .top-nav .username {
+    header .top-nav .username {
         font-size: 16px;
         color: #555555;
         font-weight: 400;
     }
 
-    .header .top-nav .nav .caret {
+    header .top-nav .nav .caret {
         border-bottom-color: #A4AABA;
         border-top-color: #A4AABA;
     }
 
-.header ul.top-nav > li > a {
+header ul.top-nav > li > a {
     color: #666666;
     font-size: 16px;
     padding: 4px 8px;
@@ -295,38 +295,18 @@ a, a:hover, a:focus {
     font-weight: 400;
 }
 
-.header ul.top-nav .open > a,
-.header ul.top-nav .open > a:focus,
-.header ul.top-nav .open > a:hover {
+header ul.top-nav .open > a,
+header ul.top-nav .open > a:focus,
+header ul.top-nav .open > a:hover {
     background-color: #fff;
     border-color: #fff;
 }
 
-.header .dropdown img {
+header .dropdown img {
     border-radius: 50%;
     -webkit-border-radius: 50%;
     width: 33px;
 }
-
-.header .nav > li > a:focus, header .nav > li > a:hover {
-    background: #fff;
-}
-
-.header .dropdown-menu {
-}
-
-.header .dropdown i {
-    padding-right: 6px;
-}
-
-.header .dropdown-menu > li > a {
-    color: #8a8a8a;
-}
-
-    .header .dropdown-menu > li > a:hover, header .dropdown-menu > li > a:focus {
-        background: #2e8ac8;
-        color: #fff;
-    }
 
 .wrapper {
     margin-bottom: 15px;
@@ -432,6 +412,21 @@ form#search {
     margin-right: 8px;
 }
 
+header .dropdown-menu {
+}
+
+header .dropdown i {
+    padding-right: 6px;
+}
+
+header .dropdown-menu > li > a {
+    color: #8a8a8a;
+}
+
+    header .dropdown-menu > li > a:hover, header .dropdown-menu > li > a:focus {
+        background: #2e8ac8;
+        color: #fff;
+    }
 
 .navbar-fixed-top {
     border: 0px;
@@ -521,6 +516,9 @@ form#search {
     background: #3498db !important;
 }
 
+header .nav > li > a:focus, header .nav > li > a:hover {
+    background: #fff;
+}
 
 .chart-filter-buttons-group {
     background: #d8d8d8;
@@ -831,6 +829,10 @@ input[type="checkbox"] {
             font-size: 12px;
         }
 }
+/*
+ * Component: Box
+ * --------------
+ */
 
 .small-box-aqua {
     color: #000;
@@ -843,69 +845,6 @@ input[type="checkbox"] {
 }
 
 .small-box-gray {
-    color: #000;
-    background-color: #39cccc !important;
-}
-
-/*
- * Component: Big Button
- * --------------------
- */
-.big-button {
-    border-radius: 2px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-    height: 50px;
-    text-align: center;
-    float: left;
-    padding: 5px;
-    margin-left: 15px;
-    margin-top: 15px;
-    width: auto;
-    min-width: 80px;
-}
-
-    .big-button .inner {
-        padding: 5px;
-    }
-    
-    .big-button:hover {
-        text-decoration: none;
-        color: #f9f9f9;
-    }
-
-.big-button p {
-        font-size: 20px;
-        padding: 0;
-        color: #F6F5F5;
-        text-align: center;
-    }
-
-    .big-button p {
-        z-index: 5px;
-    }
-
-@media (max-width: 767px) {
-    .big-button {
-        text-align: center;
-        margin-top: 15px;
-    }
-
-            .big-box p {
-            font-size: 12px;
-        }
-}
-
-.big-button-aqua {
-    color: #000;
-    background-color: #00c0ef !important;
-}
-
-.big-button-blue {
-    color: #000;
-    background-color: #3c8dbc !important;
-}
-
-.big-button-gray {
     color: #000;
     background-color: #39cccc !important;
 }
