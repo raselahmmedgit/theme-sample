@@ -302,17 +302,19 @@ a, a:hover, a:focus {
     border-color: #fff;
 }
 
+.header ul.top-nav > li > a:focus,
+.header ul.top-nav > li > a:hover {
+    background: #fff;
+}
+
 .header .dropdown img {
     border-radius: 50%;
     -webkit-border-radius: 50%;
     width: 33px;
 }
 
-.header .nav > li > a:focus, header .nav > li > a:hover {
-    background: #fff;
-}
-
 .header .dropdown-menu {
+    left:5px;
 }
 
 .header .dropdown i {
@@ -323,7 +325,8 @@ a, a:hover, a:focus {
     color: #8a8a8a;
 }
 
-    .header .dropdown-menu > li > a:hover, header .dropdown-menu > li > a:focus {
+    .header .dropdown-menu > li > a:hover,
+    .header .dropdown-menu > li > a:focus {
         background: #2e8ac8;
         color: #fff;
     }
@@ -395,6 +398,10 @@ img.profile-picture {
     margin-top: 40px;
 }
 
+.chart-breadcrumb {
+    display: inline-block;
+}
+
 .chart-breadcrumb ul {
 }
 
@@ -407,7 +414,11 @@ img.profile-picture {
     .chart-breadcrumb li:after {
         content: "\f0da";
         font-family: "FontAwesome";
-        padding-left: 13px;
+        padding-left: 10px;
+    }
+
+    .chart-breadcrumb li:last-child:after {
+        content: none;
     }
 
 .graph-box {
@@ -569,10 +580,6 @@ input[type="checkbox"] {
     font-weight: normal;
 }
 
-.chart-breadcrumb {
-    min-height: 26px;
-    margin-bottom: 18px;
-}
 
 .chart-data {
     text-align: left !important;
