@@ -52,5 +52,15 @@ namespace lab.themeapps.Controllers
         {
             return View();
         }
+
+        public ActionResult RawCodex()
+        {
+            return View();
+        }
+
+        public ActionResult RawCodexDetail()
+        {
+            return View();
+        }
     }
 }
