@@ -66,4 +66,3 @@ C:\Users\placovu_usr_04\Documents\GitHub\theme-sample\lab.themeapps\lab.themeapp
 C:\Users\placovu_usr_04\Documents\GitHub\theme-sample\lab.themeapps\lab.themeapps\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\placovu_usr_04\Documents\GitHub\theme-sample\lab.themeapps\lab.themeapps\obj\Debug\lab.themeapps.dll
 C:\Users\placovu_usr_04\Documents\GitHub\theme-sample\lab.themeapps\lab.themeapps\obj\Debug\lab.themeapps.pdb
-C:\Users\placovu_usr_04\Documents\GitHub\theme-sample\lab.themeapps\lab.themeapps\obj\Debug\lab.themeapps.csprojResolveAssemblyReference.cache
