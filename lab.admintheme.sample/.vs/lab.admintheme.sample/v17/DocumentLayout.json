@@ -1,0 +1,237 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F65AE3AF-06F4-45BF-9398-3228D0458725}|lab.admintheme.sample.csproj|c:\\users\\rasel.ahmmed\\documents\\github\\theme-sample\\lab.admintheme.sample\\views\\home\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F65AE3AF-06F4-45BF-9398-3228D0458725}|lab.admintheme.sample.csproj|solutionrelative:views\\home\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F65AE3AF-06F4-45BF-9398-3228D0458725}|lab.admintheme.sample.csproj|c:\\users\\rasel.ahmmed\\documents\\github\\theme-sample\\lab.admintheme.sample\\views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F65AE3AF-06F4-45BF-9398-3228D0458725}|lab.admintheme.sample.csproj|solutionrelative:views\\home\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F65AE3AF-06F4-45BF-9398-3228D0458725}|lab.admintheme.sample.csproj|c:\\users\\rasel.ahmmed\\documents\\github\\theme-sample\\lab.admintheme.sample\\views\\shared\\_layoutsigninup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F65AE3AF-06F4-45BF-9398-3228D0458725}|lab.admintheme.sample.csproj|solutionrelative:views\\shared\\_layoutsigninup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F65AE3AF-06F4-45BF-9398-3228D0458725}|lab.admintheme.sample.csproj|c:\\users\\rasel.ahmmed\\documents\\github\\theme-sample\\lab.admintheme.sample\\wwwroot\\home\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F65AE3AF-06F4-45BF-9398-3228D0458725}|lab.admintheme.sample.csproj|solutionrelative:wwwroot\\home\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F65AE3AF-06F4-45BF-9398-3228D0458725}|lab.admintheme.sample.csproj|c:\\users\\rasel.ahmmed\\documents\\github\\theme-sample\\lab.admintheme.sample\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F65AE3AF-06F4-45BF-9398-3228D0458725}|lab.admintheme.sample.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F65AE3AF-06F4-45BF-9398-3228D0458725}|lab.admintheme.sample.csproj|c:\\users\\rasel.ahmmed\\documents\\github\\theme-sample\\lab.admintheme.sample\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F65AE3AF-06F4-45BF-9398-3228D0458725}|lab.admintheme.sample.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F65AE3AF-06F4-45BF-9398-3228D0458725}|lab.admintheme.sample.csproj|c:\\users\\rasel.ahmmed\\documents\\github\\theme-sample\\lab.admintheme.sample\\views\\home\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F65AE3AF-06F4-45BF-9398-3228D0458725}|lab.admintheme.sample.csproj|solutionrelative:views\\home\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F65AE3AF-06F4-45BF-9398-3228D0458725}|lab.admintheme.sample.csproj|c:\\users\\rasel.ahmmed\\documents\\github\\theme-sample\\lab.admintheme.sample\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F65AE3AF-06F4-45BF-9398-3228D0458725}|lab.admintheme.sample.csproj|solutionrelative:views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 26,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T12:24:40.918Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\Views\\Home\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\SignUp.cshtml",
+              "ToolTip": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\Views\\Home\\SignUp.cshtml",
+              "RelativeToolTip": "Views\\Home\\SignUp.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACAAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T14:06:50.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T13:57:31.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\wwwroot\\home\\css\\styles.css",
+              "RelativeDocumentMoniker": "wwwroot\\home\\css\\styles.css",
+              "ToolTip": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\wwwroot\\home\\css\\styles.css",
+              "RelativeToolTip": "wwwroot\\home\\css\\styles.css",
+              "ViewState": "AQIAAOkdAAAAAAAAAAAWwP8dAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-26T13:47:28.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_LayoutSignInUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\Views\\Shared\\_LayoutSignInUp.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutSignInUp.cshtml",
+              "ToolTip": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\Views\\Shared\\_LayoutSignInUp.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutSignInUp.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T13:40:05.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\Views\\Home\\AdminIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AdminIndex.cshtml",
+              "ToolTip": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\Views\\Home\\AdminIndex.cshtml",
+              "RelativeToolTip": "Views\\Home\\AdminIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T13:38:20.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SignIn.cshtml",
+              "DocumentMoniker": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\Views\\Home\\SignIn.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\SignIn.cshtml",
+              "ToolTip": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\Views\\Home\\SignIn.cshtml",
+              "RelativeToolTip": "Views\\Home\\SignIn.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACUAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T13:30:58.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-26T13:29:38.613Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

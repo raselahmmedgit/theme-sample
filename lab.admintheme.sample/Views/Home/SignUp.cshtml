@@ -1,0 +1,60 @@
+﻿@{
+    Layout = "_LayoutSignInUp";
+    ViewData["Title"] = "Sign Up";
+}
+<!-- Content section 1-->
+<section class="mt-4">
+    <div class="container px-4">
+        <div class="row gx-4 align-items-center">
+            <div class="col-12 col-md-6 col-xl-7">
+                <div class="d-flex justify-content-center">
+                    <div class="col-12 col-xl-9">
+                        <h2 class="h1 mb-4">We make digital products that drive you to stand out.</h2>
+                        <p class="lead mb-4">We write words, take photos, make videos, and interact with artificial intelligence.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-5">
+                <div class="card border-0 rounded-4">
+                    <div class="card-body p-3 p-md-4 p-xl-5">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="mb-4">
+                                    <h3>Sign up</h3>
+                                    <p>Do have an account? <a href="/Home/SignIn">Sign in</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <form action="/Home/SignIn">
+                            <div class="row gy-3 overflow-hidden">
+                                <div class="col-12">
+                                    <div class="form-floating mb-3">
+                                        <input type="email" class="form-control" name="EmailAddress" id="EmailAddress" placeholder="name@example.com" required>
+                                        <label for="EmailAddress" class="form-label">Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating mb-3">
+                                        <input type="password" class="form-control" name="Password" id="Password" value="" placeholder="Password" required>
+                                        <label for="Password" class="form-label">Password</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating mb-3">
+                                        <input type="password" class="form-control" name="ConfirmPassword" id="ConfirmPassword" value="" placeholder="Confirm password" required>
+                                        <label for="ConfirmPassword" class="form-label">Confirm Password</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="d-grid">
+                                        <button class="btn btn-primary btn-lg" type="submit">Sign up</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
