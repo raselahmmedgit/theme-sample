@@ -28,6 +28,11 @@ namespace lab.admintheme.sample.Controllers
             return View();
         }
 
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+
         public IActionResult AdminIndex()
         {
             return View();

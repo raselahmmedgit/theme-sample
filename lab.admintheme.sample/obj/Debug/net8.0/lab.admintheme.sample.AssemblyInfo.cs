@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lab.admintheme.sample")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aaafff9ff49df02a0fd0abc8c19876bb915734d2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e5763c78315060e4d0f629ca8271685d0e6a88c")]
 [assembly: System.Reflection.AssemblyProductAttribute("lab.admintheme.sample")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lab.admintheme.sample")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

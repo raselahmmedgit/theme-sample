@@ -31,3 +31,6 @@ C:\Users\rasel.ahmmed\Documents\GitHub\theme-sample\lab.admintheme.sample\obj\De
 C:\Users\rasel.ahmmed\Documents\GitHub\theme-sample\lab.admintheme.sample\obj\Debug\net8.0\lab.admintheme.sample.genruntimeconfig.cache
 C:\Users\rasel.ahmmed\Documents\GitHub\theme-sample\lab.admintheme.sample\obj\Debug\net8.0\ref\lab.admintheme.sample.dll
 C:\Users\rasel.ahmmed\Documents\GitHub\theme-sample\lab.admintheme.sample\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutSignInUp.cshtml.rz.scp.css
+C:\Users\rasel.ahmmed\Documents\GitHub\theme-sample\lab.admintheme.sample\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutAdminAlerts.cshtml.rz.scp.css
+C:\Users\rasel.ahmmed\Documents\GitHub\theme-sample\lab.admintheme.sample\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutAdminMessages.cshtml.rz.scp.css
+C:\Users\rasel.ahmmed\Documents\GitHub\theme-sample\lab.admintheme.sample\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutAdminUserInfo.cshtml.rz.scp.css

@@ -14,8 +14,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.themeapps\\lab.themeapps\\Startup.cs",
+              "RelativeDocumentMoniker": "lab.themeapps\\Startup.cs",
+              "ToolTip": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.themeapps\\lab.themeapps\\Startup.cs",
+              "RelativeToolTip": "lab.themeapps\\Startup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T11:52:15.916Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -95,19 +109,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.themeapps\\lab.themeapps\\Startup.cs",
-              "RelativeDocumentMoniker": "lab.themeapps\\Startup.cs",
-              "ToolTip": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.themeapps\\lab.themeapps\\Startup.cs",
-              "RelativeToolTip": "lab.themeapps\\Startup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T11:52:15.916Z",
-              "EditorCaption": ""
             }
           ]
         }
