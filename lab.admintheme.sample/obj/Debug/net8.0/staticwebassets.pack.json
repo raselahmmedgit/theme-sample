@@ -53,20 +53,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\wwwroot\\home\\assets\\img\\portfolio-icon.svg",
-      "PackagePath": "staticwebassets\\home\\assets\\img\\portfolio-icon.svg"
-    },
-    {
-      "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\wwwroot\\home\\assets\\img\\services-icon.svg",
-      "PackagePath": "staticwebassets\\home\\assets\\img\\services-icon.svg"
-    },
-    {
-      "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\wwwroot\\home\\assets\\img\\team-icon.svg",
-      "PackagePath": "staticwebassets\\home\\assets\\img\\team-icon.svg"
-    },
-    {
       "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\wwwroot\\home\\css\\styles.css",
       "PackagePath": "staticwebassets\\home\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\wwwroot\\home\\img\\portfolio.png",
+      "PackagePath": "staticwebassets\\home\\img\\portfolio.png"
+    },
+    {
+      "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\wwwroot\\home\\img\\service.png",
+      "PackagePath": "staticwebassets\\home\\img\\service.png"
+    },
+    {
+      "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\wwwroot\\home\\img\\team.png",
+      "PackagePath": "staticwebassets\\home\\img\\team.png"
     },
     {
       "Id": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\wwwroot\\home\\js\\scripts.js",

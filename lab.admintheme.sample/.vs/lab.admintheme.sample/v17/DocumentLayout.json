@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{F65AE3AF-06F4-45BF-9398-3228D0458725}|lab.admintheme.sample.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F65AE3AF-06F4-45BF-9398-3228D0458725}|lab.admintheme.sample.csproj|c:\\users\\rasel.ahmmed\\documents\\github\\theme-sample\\lab.admintheme.sample\\wwwroot\\home\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F65AE3AF-06F4-45BF-9398-3228D0458725}|lab.admintheme.sample.csproj|solutionrelative:wwwroot\\home\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F65AE3AF-06F4-45BF-9398-3228D0458725}|lab.admintheme.sample.csproj|c:\\users\\rasel.ahmmed\\documents\\github\\theme-sample\\lab.admintheme.sample\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F65AE3AF-06F4-45BF-9398-3228D0458725}|lab.admintheme.sample.csproj|solutionrelative:views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -40,7 +44,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_LayoutAdmin.cshtml",
               "DocumentMoniker": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\Views\\Shared\\_LayoutAdmin.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LayoutAdmin.cshtml",
@@ -53,7 +57,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AdminIndex.cshtml",
               "DocumentMoniker": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\Views\\Home\\AdminIndex.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\AdminIndex.cshtml",
@@ -143,6 +147,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\wwwroot\\home\\css\\styles.css",
+              "RelativeDocumentMoniker": "wwwroot\\home\\css\\styles.css",
+              "ToolTip": "C:\\Users\\rasel.ahmmed\\Documents\\GitHub\\theme-sample\\lab.admintheme.sample\\wwwroot\\home\\css\\styles.css",
+              "RelativeToolTip": "wwwroot\\home\\css\\styles.css",
+              "ViewState": "AQIAAEYCAAAAAAAAAAAWwF0CAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-15T10:06:04.498Z",
+              "EditorCaption": ""
             }
           ]
         }
